@@ -1,6 +1,6 @@
+import { UsersProvider } from "./users/components/UsersProvider";
 
-function App() {
-  return <div>app</div>
+
+export function App() {
+	return <UsersProvider/>
 }
-
-export default App
